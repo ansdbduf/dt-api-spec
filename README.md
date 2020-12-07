@@ -16,3 +16,10 @@
 <p align="center">
 <img src="figures/flow.png" />
 </p>
+
+## Specification
+
+* [API 인증 및 예외처리](공통API/README.md)
+* [공간 정보](공간API/README.md)
+* [관광 정보](관광API/README.md)
+* [안전관리 모니터링](안전관리API/README.md)
