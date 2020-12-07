@@ -33,11 +33,13 @@
 	```
 * 요청파라미터
 
-|Name|Accessor Type(s)|Component Type(s)|Description|
+|파라미터|선택|설명|유효값|
 |----|----------------|-----------------|-----------|
-|`POSITION`|`"VEC3"`|`5126`&nbsp;(FLOAT)|XYZ vertex position displacements|
-|`NORMAL`|`"VEC3"`|`5126`&nbsp;(FLOAT)|XYZ vertex normal displacements|
-|`TANGENT`|`"VEC3"`|`5126`&nbsp;(FLOAT)|XYZ vertex tangent displacements|
+|os|O/1|운영체제|window / android / ios 등|
+|agent|O/1|구동 플랫폼|Mozilla/5.0 / steam vr 등|
+|model|O/1|단말기 모델명|SM-G970N 등|
+|fov|O/1|카메라 시야각|0.0~180.0|
+|apikey|M/1|발급받은 API KEY||
 
 * 응답결과(JSON)
 
