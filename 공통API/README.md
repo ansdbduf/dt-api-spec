@@ -20,5 +20,5 @@
 
 * Pub/Sub방식의 TOPIC 예시
 	```
-topic : /cameras/{디바이스 KEY}
+	topic : /cameras/{디바이스 KEY}
 	```
