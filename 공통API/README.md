@@ -22,3 +22,52 @@
 	```
 	topic : /cameras/{디바이스 KEY}
 	```
+	
+## 디바이스 KEY 발급
+* 소개
+최초 프로그램 설치시 어플리케이션, 디바이스별로 디바이스 KEY를 획득하여 타 API의 인증에 사용할 수 있도록 디바이스 KEY를 저장해놓습니다.
+
+* 요청 URL
+	```
+	https://api.xrstudio.co.kr/v1/devices HTTP1.1 / POST
+	```
+* 요청파라미터
+파라미터
+선택
+설명
+유효값
+os
+O/1
+운영체제
+window / android / ios 등
+agent
+O/1
+구동 플랫폼
+Mozilla/5.0 / steam vr 등
+model
+O/1
+단말기 모델명
+SM-G970N 등
+fov
+O/1
+카메라 시야각
+0.0~180.0
+apikey
+M/1
+발급받은 API KEY
+
+
+
+* 응답결과(JSON)
+항목명
+타입
+설명
+key
+문자
+디바이스 KEY
+
+* 테스트 디바이스 KEY 
+	```
+	13d4640d-a62c-4ea1-9dad-2b6690627fd3
+	```
+	
