@@ -32,17 +32,21 @@
 	https://api.xrstudio.co.kr/v1/devices HTTP1.1 / POST
 	```
 * 요청파라미터
+
 |Name|Accessor Type(s)|Component Type(s)|Description|
 |----|----------------|-----------------|-----------|
 |`POSITION`|`"VEC3"`|`5126`&nbsp;(FLOAT)|XYZ vertex position displacements|
 |`NORMAL`|`"VEC3"`|`5126`&nbsp;(FLOAT)|XYZ vertex normal displacements|
 |`TANGENT`|`"VEC3"`|`5126`&nbsp;(FLOAT)|XYZ vertex tangent displacements|
+
 * 응답결과(JSON)
+
 |Name|Accessor Type(s)|Component Type(s)|Description|
 |----|----------------|-----------------|-----------|
 |`POSITION`|`"VEC3"`|`5126`&nbsp;(FLOAT)|XYZ vertex position displacements|
 |`NORMAL`|`"VEC3"`|`5126`&nbsp;(FLOAT)|XYZ vertex normal displacements|
 |`TANGENT`|`"VEC3"`|`5126`&nbsp;(FLOAT)|XYZ vertex tangent displacements|
+
 * 테스트 디바이스 KEY 
 	```
 	13d4640d-a62c-4ea1-9dad-2b6690627fd3
